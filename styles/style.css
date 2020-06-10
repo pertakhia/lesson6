@@ -1,0 +1,263 @@
+/*header*/
+.inline-block {
+	display: inline-block;
+}
+header{
+	width: 100%;
+	padding:20px 0;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+nav{
+	vertical-align: middle;   
+}
+li{
+	vertical-align: middle;
+	font-family: 'Roboto-Regular';
+	font-size: 24px;
+	padding-left: 25px;
+}
+li:first-child{
+	padding-left: 98px;
+}
+li:last-child{
+	padding-right: 120px;
+}
+.heder img{
+	vertical-align: middle;
+}
+.heder{
+	vertical-align: middle;
+}
+.images1{
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 30px;
+}
+.images1:after{
+	content:" ";
+	display: inline-block;
+	margin-left:25px;
+	width: 1px;
+	height:27px;
+	background-color: #363E97;
+}
+.images2{
+	vertical-align: middle;
+	margin-left: 23px;
+}
+/*iwyeba section1*/
+.box1 {
+	margin-top: 100px;
+	width: 100%;
+	height: 520px;
+	padding: 30px 0;
+	background-color: #E6E6E6;
+}
+.box1-image{
+	margin: 0 auto;
+	position: relative;
+	z-index: 50;
+}
+
+.text-box{
+	width: 339px;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Roboto-Bold';
+	color: #E6E6E6;
+	left: 30px;
+	bottom: 30px;
+	z-index: 60;
+}
+.box-right{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	color: #E6E6E6;
+	z-index: 66;
+}
+/*iwyeba section2*/
+.box2{
+	width: 100%;
+	height: 499px;
+	background-color: #363E97;
+	padding: 90px 0;
+	position: relative;
+}
+.box3{
+	position: relative;
+}
+.box3:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
+.box2-blue{
+	width: 570px;
+	height: 320px;
+	background-color: #F2F2F2;
+	float: left;
+	position: relative;
+}
+h3{
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: 'Myriad Pro Regular';
+	position: absolute;
+	top: 33px;
+	left: 98px;
+}
+.box2-blue1{
+	width: 570px;
+	height: 320px;
+	background-color: #F2F2F2;
+    float: right;
+    position: relative;
+
+}
+.box2-blue p{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	font-size: 16.85px;
+    transform: translate(-50%,-50%);
+    color: #231F20;
+    white-space: nowrap;
+}
+.box2-blue1 p{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	font-size: 16.85px;
+	transform: translate(-50%,-50%);
+    color: #231F20;
+    white-space: nowrap;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+/* iwyeba section3*/
+.box4{
+	width: 100%;
+	height: 450px;
+	background-color: #BDCCD4;
+	position: relative;
+	padding: 90px 0 ;
+}
+.box4-text{
+	position: absolute;
+	top: 30px;
+	left: 98px;
+	color: #3D58A6;
+    font-family: 'Roboto-Regular';
+    font-size: 24px;
+}
+.box4-text1{
+	width: 270px;
+	height: 60px;
+	background-color: #E6E6E6;
+	font-size: 22px;
+	font-family: 'Roboto-Regular';
+	display: block;
+	position: relative;
+}
+.box4-text1 p{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+}
+.box4-box4{
+	margin-right: 0;
+	width: 270px;
+	height: 60px;
+	background-color: #E6E6E6;
+	font-size: 24px;
+    display: inline-block;
+}
+.box4-box1{
+	margin-right: 26px;
+	display: inline-block;
+}
+/*start section4*/
+.box5{
+	width: 100%;
+	height: 345.5px;
+	background-color: #E6E6E6;
+	position: relative;
+	padding: 90px 0 30px 0;
+}
+.box5-text{
+	color: #000000;
+	font-family: 'Roboto-Regular';
+	font-size: 24px;
+	position: absolute;
+	top: 30px;
+	left: 98px;
+}
+.box5-box{
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	position: relative;
+	vertical-align: middle;
+}
+.box5-box:first-child{
+	margin-right: 26px;
+}
+.box5-box-text{
+	color: #3D58A6;
+	font-family: 'Roboto-Regular';
+	font-size: 22px;
+	margin: 15px 0  15px 15px;
+}
+.box5-img{
+	margin: 0 55px 0 40px;
+	vertical-align: middle;
+}
+.box5-text1{
+	width: 355px;
+	vertical-align: middle;
+}
+.box5-text1 p{
+	color: #333333;
+	font-size: 20px;
+	font-family: 'Roboto-Regular';
+	margin-bottom: 5px;
+}
+.read-more{
+	color: #3D58A6;
+	font-size: 14px;
+	font-family: 'Roboto-Regular';
+	position: absolute;
+	bottom: 15px;
+	right: 5px;
+}
+/*start footer*/
+footer{
+	width: 100%;
+	height: 60px;
+	padding: 26px 0;
+}
+.footer1{
+	font-family: 'Myriad Pro Regular';
+	font-size: 12px;
+	color: #333333;
+	float: left;
+}
+.footer2{
+	font-family: 'Myriad Pro Regular';
+	font-size: 12px;
+	color: #333333;
+	float: right;
+}
+.float-test:after{
+	content: " ";
+	clear: both;
+	display: block;
+}
